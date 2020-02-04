@@ -35,7 +35,6 @@ from pmdarima import auto_arima
 import warnings
 warnings.filterwarnings("ignore") # specify to ignore warning messages
 
-
 # функция графика сезонности
 def sesonal(data, s):
     plt.figure(figsize=(19,8), dpi= 80)
